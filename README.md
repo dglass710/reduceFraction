@@ -5,11 +5,11 @@ Example I/O:
 
 ``` bash
 user@computer:/path/to/current/directory> python3 reduceFractionCLI.py 16/24
-2/3
+reduce(16,24) = 2/3
 user@computer:/path/to/current/directory> python3 reduceFractionCLI.py 16/32
-1/2
+reduce(16,32) = 1/2
 user@computer:/path/to/current/directory> python3 reduceFractionCLI.py 24/32
-3/4
+reduce(24,32) = 3/4
 user@computer:/path/to/current/directory> python3 reduceFractionCLI.py 88/100
-22/25
+reduce(88,100) = 22/25
 ```
