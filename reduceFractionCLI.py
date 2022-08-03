@@ -13,7 +13,7 @@ def reduceFraction(a,b):
 
 def main():
     if len(sys.argv) < 2 or sys.argv[1].count('/') != 1:
-        print('Requires argument in the form of int1/int2 where num1 and num2 are both integers')
+        print('Requires argument in the form of \033[91mint1/int2\033[0m where \033[93mint1\033[0m and \033[93mint2\033[0m are both integers')
     else:
         numStrList = sys.argv[1].split('/')
         areInts = True
@@ -22,9 +22,9 @@ def main():
                 areInts = False
         if areInts:
             result = reduceFraction(int(numStrList[0]),int(numStrList[1]))
-            print(f'{result[0]}/{result[1]}')
+            print(f'reduce(\033[95m{numStrList[0]}\033[0m,\033[95m{numStrList[1]}\033[0m) = \033[96m{result[0]}/{result[1]}')
         else:
-            print('int1 and/or int2 cannot be identified as integers')
+            print('\033[93mint1\033[0m and/or \033[93mint2\033[0m cannot be identified as integers')
 
 main()
 
