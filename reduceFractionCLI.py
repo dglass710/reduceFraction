@@ -22,7 +22,7 @@ def main():
                 areInts = False
         if areInts:
             result = reduceFraction(int(numStrList[0]),int(numStrList[1]))
-            print(f'reduce(\033[95m{numStrList[0]}\033[0m,\033[95m{numStrList[1]}\033[0m) = \033[96m{result[0]}/{result[1]}')
+            print(f'\033[96m{numStrList[0]}/{numStrList[1]}\033[0m = \033[95m{result[0]}/{result[1]}')
         else:
             print('\033[93mint1\033[0m and/or \033[93mint2\033[0m cannot be identified as integers')
 
