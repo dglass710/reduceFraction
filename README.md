@@ -3,7 +3,7 @@ A simple, self contained, command line tool that reduces fractions.
 
 Example I/O:
 
-''' bash
+``` bash
 foo@bar>>> python3 reduceFractionCLI.py 16/24
 
 2/3
@@ -19,4 +19,4 @@ foo@bar>>> python3 reduceFractionCLI.py 24/32
 foo@bar>>> python3 reduceFractionCLI.py 88/100
 
 22/25
-'''
+```
