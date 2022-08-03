@@ -1,6 +1,6 @@
 # reduceFraction
 A simple, self contained, command line tool that reduces fractions.
-<br>
+<br><br>
 reduceFractionCLI.py is more aestetically pleasing in a terminal with color support however reduceFractionCLINoColor.py has less overhead. I wanted to make sure both are options as we all hate bloat-ware but having color is very helpful.  
 
 Example I/O:
